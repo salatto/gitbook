@@ -26,7 +26,7 @@ metaLinks:
 
 Salatto is not just a gambling product — it is a **community-run lotto marketplace**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-02-05 at 17.20.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-02-05 at 17.20.39.png" alt=""><figcaption></figcaption></figure>
 
 #### Why Salatto Exists
 
@@ -66,7 +66,7 @@ Salatto was created to:
 
 **Salatto** is built around clarity, verifiable fairness, and creator freedom.
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-02-05 at 16.51.11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2026-02-05 at 16.51.11.png" alt=""><figcaption></figcaption></figure>
 
 #### Key Advantages of Salatto Lotteries
 
