@@ -22,15 +22,16 @@ metaLinks:
 
 # For Players (Users)
 
-> * Who is a Creator
-> * How to create a lottery
-> * Lottery types
-> * Prize structure
-> * Promoting lotteries
-> * Limits, Rules & Refunds
-> * How creators earn
-> * Anti-fraud rules
-> * Creator FAQ
+> * How to participate in lotteries
+> * Ticket types
+> * Rank, Rewards, Bonuses & Incentives
+> * Odds, RTP, fairness
+> * Winnings & Payouts
+> * Fees & Commissions
+> * Fairness & Transparency
+> * User Limits & Responsible Gaming
+> * Security & User Protection
+> * Creators vs Gamers – What’s the Difference
 
 #### Players (Users)
 
