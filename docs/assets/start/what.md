@@ -22,32 +22,30 @@ metaLinks:
 
 # What is Salatto
 
-**Salatto** is a next-generation lottery & gaming platform that allows **any creator** to launch transparent, provably fair lotteries and instant games, while **players** can participate in games they trust, understand, and enjoy.
+**Salatto** is a decentralized lottery & gaming platform on Solana where **anyone can create** transparent, provably fair lotteries and instant games — and **anyone can play** with full confidence in the outcome.
 
-Salatto is not just a gambling product — it is a **community-run lotto marketplace**.
+Salatto is **not** a casino or gambling product. It is a **community-run lotto marketplace** — a new category we call **LottoFi**.
+
+> All you need is a dollar and a dream. You **can't** win if you **don't** play.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-02-05 at 17.20.39.png" alt=""><figcaption></figcaption></figure>
 
 #### Why Salatto Exists
 
-Traditional lottery platforms:
+Traditional lottery platforms are broken:
 
-* are centralized
-* hide mechanics and real odds
-* do not reward creators
-* lock users into opaque systems
-* impose rigid, outdated payout structures
-* stretch payouts over 10–20+ years instead of paying winners instantly
-* force public disclosure of winners, removing privacy
+* They are **centralized** and opaque — players have no way to verify outcomes
+* They **hide real odds** and mechanics behind fine print
+* They **stretch payouts over 10–20+ years** instead of paying winners instantly
+* They take **massive cuts through taxes and fees** — the $2B Mega MiIIions jackpot paid less than $1B after tax and lump-sum discount
+* They **force public disclosure** of winners, removing privacy
+* They **don't reward creators** or communities that drive participation
 
-In traditional lotteries, even a **"win"** often means:
+Even when you "**win**" a traditional lottery, you often receive only a fraction of the advertised prize, wait years for full payout, and lose your anonymity in the process.
 
-* receiving only part of the advertised jackpot
-* waiting decades for full payout
-* losing anonymity
-* having no control or transparency over the process
+> Salatto was built to fix this.
 
-> Salatto was created to solve these problems.
+***
 
 Salatto was created to:
 
@@ -60,49 +58,43 @@ Salatto was created to:
 * remove forced **jackpot splitting** unless explicitly defined by the creator
 * allow **winners** to remain **anonymous** by default
 
-#### Core Idea
+***
 
-> If you understand the game — you trust the game.
+#### Core Principles
 
-**Salatto** is built around clarity, verifiable fairness, and creator freedom.
+> **If you understand the game — you trust the game.**
+
+**Salatto** is built around three pillars:
+
+* **Transparency** — every prize, chance, and ticket price is visible before you participate
+* **Fairness** — outcomes are determined by on-chain VRF (Verifiable Random Function) that no one can manipulate
+* **Creator freedom** — anyone can design and launch a own lottery, not just licensed operators
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2026-02-05 at 16.51.11.png" alt=""><figcaption></figcaption></figure>
 
 #### Key Advantages of Salatto Lotteries
 
-* **No payout blocks** — winnings are distributed automatically
-* **No 20+ year payment schedules** — instant payouts only
-* **No forced jackpot sharing** — rules are known before participation
-* **Provably fair randomness** — outcomes cannot be manipulated
-* **Winner anonymity** — privacy is respected by design
-* **Clear odds & RTP disclosure** — no hidden math
-* **Creator-defined mechanics** — innovation without platform bias
-* **Automated execution** — no human interference
+* **Instant payouts** — winnings are distributed automatically, no waiting periods
+* **No forced jackpot sharing** — prize rules are defined and locked before the game starts
+* **Provably fair randomness** — on-chain VRF ensures outcomes cannot be manipulated by anyone, including Salatto
+* **Winner anonymity** — your privacy is respected by default
+* **Clear odds & RTP disclosure** — no hidden math, no surprises
+* **Creator-defined mechanics** — creators design the game, the platform handles execution
+* **Automated execution** — no human interference in draws or payouts
+* **Non-custodial** — Salatto never holds your funds outside of active game participation
 
 {% hint style="info" %}
-Salatto replaces legacy lottery logic with modern, user-first mechanics.
+Salatto replaces legacy lottery logic with modern, **user-first** mechanics.
 {% endhint %}
 
 If you **win** — you **win clearly**, **fairly**, and on fair terms.
 
-### How to create a game
+***
 
-{% stepper %}
-{% step %}
-#### Step 1 — Connect Your Wallet
+#### Two Ways to Use Salatto
 
-Click `Log in` in the top-right corner.
-{% endstep %}
+**Play** — browse live lotteries and games, buy tickets, and win prizes. No blockchain knowledge required.
 
-{% step %}
-#### Step 2 — Open the Game Creator interface
+**Create** — launch your own lottery or game as a creator. Define the rules, attract players, and earn from successful games.
 
-Click **Create Game** button.
-{% endstep %}
-
-{% step %}
-#### Step 3 — Define Game Rules
-
-Set up **prize type** & **amount**, **ticket price**, **participants** and **duration**.
-{% endstep %}
-{% endstepper %}
+→ Ready to start? Head to the Quickstart guide.
