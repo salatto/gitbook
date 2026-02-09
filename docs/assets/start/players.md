@@ -99,39 +99,67 @@ If you buy 5 tickets: win probability = 5/100 = 5%.
 
 Your tickets and games progress through these statuses:
 
-| Status         | What it means                                                              |
-| -------------- | -------------------------------------------------------------------------- |
-| **Active**     | The game is live and selling tickets. You can still buy or sell tickets.   |
-| **Completed**  | Draw is done. Prizes have been distributed to winner wallets.              |
-| **Refunded**   | The game did not meet minimum requirements. All ticket funds are refunded. |
-| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.          |
+| Status         | What it means                                                                 |
+| -------------- | ----------------------------------------------------------------------------- |
+| **Active**     | The game is live and selling tickets. You can still buy or sell tickets.      |
+| **Finished**   | Draw is done. Prizes have been distributed to winner wallets. You didn't win. |
+| **Wins**       | The game is over and you have **won**. VRF has determined you the winner.     |
+| **Refunded**   | The game did not meet minimum requirements. Your money refunded.              |
+| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.             |
 
 You can view all your tickets grouped by status in the **My Tickets** dashboard.
 
 ***
 
-#### Early Exit
+#### Early Exit (Selling Tickets)
 
-Changed your mind after buying a ticket? You can sell it back before the draw completes.
+You can sell a ticket back before the draw is completed, but a **15% early exit fee** applies.
 
-**Early exit fee: 15%**
+Why the fee exists:
 
-This fee compensates for the disruption to the game's liquidity and economics. It protects both the creator and other participants.
+* Early exits remove liquidity from the game
+* They can prevent games from completing, potentially causing refunds for all remaining players
+* The fee discourages impulsive exits and protects game integrity
 
+The fee is clearly shown before confirming any sale transaction. If a game is refunded (not completed), you receive a full refund — no exit fee applies.
+
+{% hint style="info" %}
 Buy tickets thoughtfully. DYOR before participating.
+{% endhint %}
 
 ***
 
-#### Refunds
+#### Refunds Policy
 
 If a lottery fails to meet its requirements (e.g., minimum participants not reached), the game status changes to **Refunded** and funds are returned to all participants automatically. A small Solana network fee may apply.
 
+* **Game refunded** — full refund of ticket price (minus minimal Solana gas fees)
+* **Early exit** — ticket price minus 15% fee
+* **Game completed, you lost** — no refund (this is normal lottery behavior)
+* **Game completed, you won** — prize sent directly to your wallet
+
+Refunds for failed games are processed automatically by the smart contract.
+
 ***
 
-#### Rank Progression&#x20;
+#### Evaluating Creators (soon)
+
+Before joining any lottery, check the creator's reputation:
+
+**Creator Rating (CR)** — overall trust score based on completed games, total volume, and consistency. Higher is better.
+
+**Dead Game Rate (DG)** — percentage of the creator's games that ended in refund rather than completion. Lower is better.
+
+A creator with many completed games, high total volume, and DG below 10–15% is generally trustworthy. A creator with 95%+ DG means almost all their games fail — avoid them.
+
+Both metrics are visible on the creator's profile and on every game page. (coming soon)
+
+***
+
+#### &#x20;Rank System&#x20;
 
 Salatto uses a **rank progression system** to reflect a user’s activity on the platform.\
-Your rank is based on **how many games you have participated in** and is currently displayed in the **My Tickets** section.
+Your rank is based on **how many games you have participated in** (not individual tickets purchased), and is currently displayed in the **My Tickets** section.
 
 ***
 
@@ -147,34 +175,42 @@ Your rank is based on **how many games you have participated in** and is current
 | <mark style="color:blue;">**Diamond • Top 5%**</mark>       | **501–1000** |
 | <mark style="color:purple;">**Legend • Top 1%**</mark>      | **1001+**    |
 
-Your rank updates automatically as you participate in more games.
+{% hint style="info" %}
+Your rank updates automatically as you participate in more games.&#x20;
+{% endhint %}
 
 ***
 
-### Current State (v1)
+### Current Rank (v1)
 
-* Ranks are **non-financial**
-* No direct rewards or advantages yet
-* Used mainly for **visual status and progress tracking**
-
-***
-
-### Future Evolution
-
-**Ranks** are informational and visual — used for status and progress tracking. No direct rewards or gameplay advantages are tied to ranks **yet**.
+**Ranks** —  are displayed on your profile as a visual indicator of experience, and progress tracking. No direct rewards or gameplay advantages are tied to ranks **yet**.
 
 > The rank system will evolve as Salatto grows.
 
 **What's coming next:**
 
+* **XP-based progression**
+* **Exclusive games** **and** **lotteries access**
 * **Achievements and milestones**
-* **Rank-based platform perks** and access to **exclusive games** and **lotteries**
-* Enhanced **benefits** for high-rank users
-* Advanced **staking** and progression mechanics
+* **Daily/weekly quests**&#x20;
+* **Leaderboard visibility**
+* **Advanced staking and progression mechanics**
 
-Ranks are designed to recognize active users, build long-term reputation, and create a clear progression path within the Salatto ecosystem.
+> Ranks are designed to recognize active users, build long-term reputation, and create a clear progression path within the Salatto ecosystem.
 
+{% hint style="info" %}
 Over time, progressing to higher ranks will become more challenging, reinforcing long-term engagement and rewarding active participants.
+{% endhint %}
 
 ***
 
+#### Tips for New Players
+
+* **Start small** — try games with low ticket prices to understand the flow
+* **Check creator reputation** — always review CR and DG before buying
+* **Read game rules** — every game has its full economics displayed
+* **Don't spend more than you can afford to lose** — lotteries are entertainment, not investment
+* **Use flexible lotteries** — they complete more reliably than standard ones
+* **Share and promote** — found a great game? Sharing helps creators and grows the community
+
+***
