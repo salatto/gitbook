@@ -30,43 +30,83 @@ metaLinks:
 
 1. **Connect your wallet** — click **Log in** and approve the wallet connection
 2. **Browse available games** — explore live lotteries, upcoming games, and instant games
-3. **Open a game page** — review all details before participating:
+3. **Review Game Details** — before buying, check:
    * Ticket price
-   * Prize pool and distribution
+   * Prize pool amount
    * Total number of tickets
    * Lottery progress (tickets sold / remaining)
-   * Creator info and reputation
-4. **Buy ticket(s)** — confirm the transaction in your wallet
+   * Creator info and reputation (CR and DG metrics)
+4. **Buy ticket(s)** — confirm the transaction in your wallet.
 5. **Wait for the draw** — or get an instant result, depending on the game type
-6. **Receive winnings automatically** — prizes are sent directly to your wallet
+6. **Receive winnings automatically** — prizes are sent directly to your wallet instantly and automatically. No claims process, no waiting period, no paperwork.
+7. **Track Your History** — View all your tickets, game results, and statistics in the **My Tickets** section.
+
+> The draw triggers when all tickets are sold, the deadline is reached, or (for flexible lotteries) minimum conditions are met. The draw is automatic and uses on-chain VRF randomness.
+
+{% hint style="info" %}
+You can buy multiple tickets in a single lottery to increase your chances.
+{% endhint %}
+
+***
+
+#### Buying Multiple Tickets
+
+You can purchase more than one ticket per lottery. There is no restriction on the number of tickets — buying more tickets increases your probability of winning.
+
+However, the platform enforces a smart limit: **you cannot purchase tickets whose total cost exceeds the prize pool value**. This exists to protect you. Spending more on tickets than you could possibly win makes no economic sense, and Salatto prevents this by design.
 
 ***
 
 #### Types of Games
 
-**Classic Lotteries** — buy tickets, wait for the draw, win based on provably fair randomness. The most common game type on Salatto.
+**Classic Lotteries (Live)** Standard lottery format — buy tickets, for all tickets to sell, winner is selected by VRF. Simple, transparent, and proven. The most common game type on Salatto.\
+The game must sell 100% of its tickets — otherwise a refunds will be issued.
 
-**Jackpot Pool** — a shared prize pool that grows across multiple games. Monthly draws with larger prizes. _(Coming soon)_
+**Flexible Lotteries (Soon)** Same as classic, but the creator has opted to allow the lottery to complete before 100% of tickets are sold. If the game reaches its minimum threshold (time deadline + minimum participation), it completes and the creator receives a reduced fees. This means more games finish successfully instead of being refunded, and CR doesn't drop.
 
-**Creator-Exclusive Games** — unique game formats designed by individual creators with custom rules and prize structures. _(Coming soon)_
+**Jackpot Pool (Soon)** — a monthly shared prize pool funded by participating lotteries. Creators opt in (+5% JP fees cost), and all tickets from those lotteries also automatically enter the monthly Jackpot draw. Jackpot-participating games are marked with a badge and receive priority placement. The more games you play each month, the higher your chances of winning the monthly Jackpot.
+
+**Creator-Exclusive Games** **(Coming Soon)**
+
+**No-Loss Lotteries (Coming Soon)**
+
+**Scratch Cards / Heart Stoppers (Coming Soon)**
+
+**Mini-Games (Coming Soon)**
+
+**Flip Tournaments (Coming Soon)**
 
 ***
 
 #### Understanding Odds
 
-Every game on Salatto shows:
+Every game on Salatto displays its odds before participation:
 
-* **Total tickets** in the game
-* **Winning tickets** and prize tiers
+* **Win probability** = your tickets / total tickets in the game
 * **Your percentage chance** of winning
 
-Before buying a ticket, you always know:
+For example, in a game with 100 tickets at 1 SOL prize pool:
 
-* The **maximum you can lose** (your ticket price)
-* The **maximum you can win** (the top prize)
-* The **exact odds** of each outcome
+If you buy 1 ticket: win probability = 1/100 = 1%,
 
-There are no hidden mechanics. What you see is what you get.
+If you buy 5 tickets: win probability = 5/100 = 5%.
+
+> All of this is visible on the game page. There are no hidden odds or house edges beyond the disclosed platform fee (5%) and creator determined margin.
+
+***
+
+#### Game Statuses
+
+Your tickets and games progress through these statuses:
+
+| Status         | What it means                                                              |
+| -------------- | -------------------------------------------------------------------------- |
+| **Active**     | The game is live and selling tickets. You can still buy or sell tickets.   |
+| **Completed**  | Draw is done. Prizes have been distributed to winner wallets.              |
+| **Refunded**   | The game did not meet minimum requirements. All ticket funds are refunded. |
+| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.          |
+
+You can view all your tickets grouped by status in the **My Tickets** dashboard.
 
 ***
 
