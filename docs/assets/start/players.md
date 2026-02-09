@@ -121,45 +121,20 @@ Your rank updates automatically as you participate in more games.
 
 ### Future Evolution
 
-The rank system will evolve as Salatto grows.
+**Ranks** are informational and visual — used for status and progress tracking. No direct rewards or gameplay advantages are tied to ranks **yet**.
 
-Planned improvements include:
+> The rank system will evolve as Salatto grows.
+
+**What's coming next:**
 
 * **Achievements and milestones**
-* **Rank-based platform perks**
-* Access to **elite lotteries**
-* Advanced **staking (growing mechanics)**
-* Enhanced benefits for high-rank users
+* **Rank-based platform perks** and access to **exclusive games** and **lotteries**
+* Enhanced **benefits** for high-rank users
+* Advanced **staking** and progression mechanics
+
+Ranks are designed to recognize active users, build long-term reputation, and create a clear progression path within the Salatto ecosystem.
 
 Over time, progressing to higher ranks will become more challenging, reinforcing long-term engagement and rewarding active participants.
 
 ***
 
-### Why Ranks Matter
-
-Ranks are designed to:
-
-* Recognize active users
-* Build long-term reputation
-* Unlock deeper platform mechanics
-* Create a clear progression path within the Salatto ecosystem
-
-***
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Embedded content
-
-{% hint style="info" %}
-GitBook supports thousands of embedded websites out-of-the-box, simply by pasting their links. Feel free to check out which ones[ are supported natively](https://iframely.com).
-{% endhint %}
