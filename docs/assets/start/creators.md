@@ -69,15 +69,47 @@ This is where your lottery or instant game is configured.
 Configure the core parameters of your game:
 
 * **Prize type and amount** — what winners receive
-* **Ticket price** — cost per entry
+* **Ticket price** — cost per entry (shown in SOL with USD equivalent)
 * **Total number of tickets** — how many participants the game supports
-* **Game duration** — time limit&#x20;
+* **Game duration** — time limit or sell-out condition
+* **Prize distribution** — how winnings are split across winners (one or more winners)
+* **Creator margin** — your earnings percentage from the game
+* **Flexible option** — whether the lottery can complete before 100% fill (optional) (soon)
+* **Jackpot participation** — whether to opt into the monthly Jackpot Pool (optional, +5% commission)
 
-> All rules are locked before launch and cannot be changed once the game is live.
+The prize pool must be at least **5% of total game revenue** — ensuring meaningful prizes for players.
 
 {% hint style="info" %}
-Once published, your game becomes immediately available to players.
+All rules are locked before launch and cannot be changed once the game is live.
 {% endhint %}
+
+**Step 4 — Customize Your Game Card Button (Optional)**
+
+Personalize how your game appears in the marketplace:
+
+* **Default** — Free standard game card
+* **Tier 1** — Custom color + name styling (\~$2 in SOL)
+* **Tier 2** — Gradient + name + emoji styling (\~$10 in SOL)
+
+Better-looking game cards attract more attention and ticket purchases.
+
+**Step 5 — Publish and Promote**
+
+**Once published**, your game becomes immediately available to players. Share the link to attract participants — every lottery is a standalone shareable product. The platform displays "Share your lottery to earn more" to encourage viral distribution.
+
+***
+
+#### Promote (Upgrade) System
+
+Creators can boost their lottery's visibility through the Promote system on the platform:
+
+* **Scrolling text** — your lottery appears in the scrolling banner with custom text and display duration
+* **Ad blocks** — banner placement in high-visibility areas of the platform
+* **Sticker frames** — decorative frames around your game card
+
+Each promotion type has configurable duration and pricing. Promotion is purchased in SOL during or after game creation.
+
+**Burning mechanics (soon):** Instead of paying upfront for promotion, eligible creators (those meeting minimum CR and rank requirements) will be able to "burn" part of their creator commission to boost their lottery for free. The platform takes 50% of creator fees - burned fees as an upgrade cost. New creators are not eligible — this feature requires proven track record.
 
 ***
 
@@ -87,8 +119,11 @@ Creators define:
 
 * Game type and format
 * Ticket price and total supply
-* Prize pool&#x20;
-* Creator margin (their earnings percentage)
+* Prize pool distribution
+* Creator margin (earnings percentage)
+* Flexible completion option
+* Jackpot Pool participation
+* Game card appearance
 
 Creator does NOT control:
 
@@ -96,7 +131,9 @@ Creator does NOT control:
 * Payout execution
 * Game outcome in any way
 
-> This separation ensures that every game is fair regardless of who created it.
+{% hint style="info" %}
+This separation ensures that every game is fair regardless of who created it.
+{% endhint %}
 
 ***
 
@@ -113,7 +150,7 @@ Creator does NOT control:
 
 #### How Creators Earn
 
-Creators earn a percentage of each successfully completed game. The exact creator margin is set during game creation and is visible to all participants.
+Creators earn their configured margin from each successfully completed game. The exact percentage is set during game creation and is visible to all participants before they buy tickets.
 
 Creators **do not earn** if:
 
@@ -124,6 +161,8 @@ Creators **do not earn** if:
 The creator is solely responsible for promoting their lottery and undertakes to promote it.
 {% endhint %}
 
+**Flexible lotteries:** If a creator enables the flexible option, the lottery can complete even without 100% ticket sales. In this case, the creator's commission is reduced proportionally — they earn less, but the game still completes rather than being refunded. This is often preferable to a full refund where the creator earns nothing, which also leads to a lower rating.
+
 #### Creators are users who:
 
 * create lotteries or games
@@ -131,18 +170,64 @@ The creator is solely responsible for promoting their lottery and undertakes to 
 * attract audiences
 * earn from successful games up to 90% of successful game.
 
-> Each creator independently determines their own game, but no less than 5% for the prize pool.
+{% hint style="info" %}
+Each creator independently determines their own game, but no less than 5% for the prize pool.
+{% endhint %}
 
 ***
 
 #### Creator Reputation System
 
-Not all creators are equal. Salatto provides tools to help players assess creator reliability:
+Every creator has a public profile with two key metrics that help players make informed decisions:
 
-* **Creator Rating (CR) Soon!** — an overall trust score based on a creator's history, completion rates, and player feedback
-* **Dead Games Rate (DG) Soon!**  — the percentage of a creator's games that ended in refund rather than a successful draw
+**Creator Rating (CR)**
 
+An overall trust score based on:
+
+* Number of successfully completed games
+* Total revenue volume processed
+* Game completion rate
+* Player satisfaction
+
+Higher CR means more trust. Creators with high CR appear higher in search results and discovery rankings, which directly translates to more players and more revenue.
+
+**Dead Game Rate (DG)**&#x20;
+
+The percentage of a creator's games that ended in a refund rather than a successful draw. DG matters because:
+
+* Starts with 10th game.
+* Refunded games waste players' time (games can run for weeks before failing and refunded)
+* Players selling tickets early from likely-to-fail games lose 15% to the exit fee
+* A creator with 95–99% DG is essentially creating games that never complete
+
+**The relationship:** More completed games + higher total volume + lower DG = higher CR = better visibility = more money.
+
+{% hint style="info" %}
 A high CR and low DG indicate a reliable creator. Players are encouraged to check these metrics before participating.
+{% endhint %}
+
+***
+
+#### Creator Verification
+
+Creators can apply for a **Verified** badge that appears on their profile and game cards:
+
+* Apply via [**verified@salat.to**](mailto:verified@salat.to) with your social media profiles
+* The team evaluates your reach, authenticity, and content quality
+* An automated application form is also planned
+
+Verified status builds trust with players and can improve conversion rates.
+
+***
+
+#### Creator Rank & Progression (Planned)
+
+In future versions, creators will have a rank-based progression system:
+
+* New creators start with lower maximum commission percentages
+* As rank increases through completed games, higher commission tiers unlock
+* This prevents brand-new creators from setting exploitative margins
+* Proven creators with high CR and low DG get the most earning potential
 
 ***
 
