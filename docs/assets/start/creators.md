@@ -100,6 +100,17 @@ Creator does NOT control:
 
 ***
 
+#### Game Statuses
+
+| Status         | What it means                                                              |
+| -------------- | -------------------------------------------------------------------------- |
+| **Active**     | The game is live and selling tickets. You can still buy or sell tickets.   |
+| **Completed**  | Draw is done. Prizes have been distributed to winner wallets.              |
+| **Cencelled**  | The game did not meet minimum requirements. All ticket funds are refunded. |
+| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.          |
+
+***
+
 #### How Creators Earn
 
 Creators earn a percentage of each successfully completed game. The exact creator margin is set during game creation and is visible to all participants.
