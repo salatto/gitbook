@@ -19,74 +19,91 @@ layout:
 
 # Security & Trust
 
-### Trust & Security
+Trust is the foundation of any lottery platform. Salatto is built so that trust is not required — it is **verifiable**.
 
-* Automated payouts
-* Immutable game logic
-* Transparent rules
-* No manual overrides
-* Wallet & account security
-* No custody&#x20;
-* How user funds are protected
-* What Salatto never asks for (keys, seed phrases)
+***
 
+#### Provably Fair Draws
 
+Every draw on Salatto is on-chain and verifiable.
 
-Every draw on Salatto is on-chain and verifiable
+**VRF Technology:** Salatto uses a Verifiable Random Function to generate randomness for all game outcomes. This ensures that no one — including platform developers, lottery creators, or any third party — can predict or manipulate the result of a draw.
 
-VRF Technology: We use a Verifiable Random Function to ensure that no one—including the platform developers or lottery creators—can manipulate the outcome of a draw.
+**How to verify:**
 
-* Creator Reputation: Users can assess the reliability of a lottery creator through two metrics:
-* Creator Rating (CR): An overall trust score based on history.
-* Death Game Rate (DG): The percentage of a creator's games that ended in a refund rather than a successful draw.
+1. Open any completed game
+2. Click on the draw transaction link
+3. Inspect the VRF output and winner selection on-chain
 
-### Fairness, randomness & trust&#x20;
+The math is public. The results are deterministic. Anyone can verify.
 
-**Ключевой блок для крипты**
+***
 
-Обязателен.
+#### Automated, Immutable Execution
 
-* Randomness source (VRF, oracle, on-chain, hybrid)
-* Can results be manipulated? (нет / как защищено)
-* Provably fair explanation (человеческим языком)
-* Verification steps (как пользователь может проверить)
-* RTP logic (fixed / flexible / ranges)
+* **Automated payouts** — winners receive funds directly to their wallets without manual intervention
+* **Immutable game logic** — once a game is published, its rules cannot be changed
+* **No manual overrides** — Salatto cannot alter outcomes, block payouts, or modify game parameters after launch
+* **Transparent rules** — every game's mechanics, odds, and prize structure are visible before participation
 
+***
 
+#### Non-Custodial by Design
 
-### Odds, RTP & economics
+Salatto does not hold user funds outside of active game participation.
 
-**Чётко и без магии**
+* Your wallet remains under your control at all times
+* Funds are locked in game contracts only during active participation
+* Winnings are distributed directly to your wallet
 
-* RTP per game type
-* Expected odds
-* House edge
-* Who earns what:
-  * Platform %
-  * Creator %
-  * Liquidity / prize pool
+**Salatto will never ask for:**
 
+* Your private keys or seed phrase
+* Direct token transfers outside the platform
+* Access to your wallet beyond standard transaction approvals
 
+If anyone asks for these — it is a scam.
 
+***
 
+#### Creator Reputation System
 
-* Smart contract audits (или “planned”)
-* Bug bounty (если есть)
-* How to report vulnerabilities
-* Custody model (non-custodial / semi / custodial)
+Not all creators are equal. Salatto provides tools to help players assess creator reliability:
 
+* **Creator Rating (CR) Soon!** — an overall trust score based on a creator's history, completion rates, and player feedback
+* **Dead Games Rate (DG) Soon!**  — the percentage of a creator's games that ended in refund rather than a successful draw
 
+A high CR and low DG indicate a reliable creator. Players are encouraged to check these metrics before participating.
 
+***
 
+#### Odds, RTP & Economics
 
+Salatto operates with full economic transparency:
 
+* **RTP per game type** — disclosed before participation and locked at launch
+* **Expected odds** — clearly shown for every game
+* **Platform fee** — 5% from successful games only
+* **Creator margin** — set by the creator and visible
 
+There is no hidden house edge. The economics of every game are visible and auditable.
 
+***
 
+#### Security Practices
 
+* Smart contract audits — planned (details will be published when completed)
+* Bug bounty program — coming soon
+* Vulnerability reporting — contact the team via Support
 
-###
+***
 
-{% hint style="info" %}
-If you have multiple files, GitBook makes it easy to import full repositories too — allowing you to keep your GitBook content in sync.
-{% endhint %}
+#### What Salatto Cannot Do
+
+* Manipulate draw outcomes
+* Block or delay legitimate payouts
+* Change game rules after publication
+* Access your wallet or private keys
+* Reverse completed transactions
+
+The platform is designed so that even Salatto itself cannot interfere with fair game execution.
