@@ -15,4 +15,4 @@
   * [Affiliate / Partners](docs/assets/start/affiliate.md)
   * [Legal](docs/assets/start/legal.md)
   * [Support](docs/assets/start/support.md)
-  * [Why Salatto is different (USP)](docs/assets/start/why.md)
+  * [Why Salatto is different](docs/assets/start/why.md)
