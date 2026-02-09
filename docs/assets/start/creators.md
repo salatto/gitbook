@@ -239,6 +239,7 @@ Salatto enforces strict rules to protect players:
 * Game parameters are immutable once published
 * Suspicious patterns (self-play, coordinated abuse) are detected and flagged
 * Violations result in penalties up to permanent platform ban
+* CR and DG metrics provide transparent accountability
 
 ***
 
@@ -246,9 +247,15 @@ Salatto enforces strict rules to protect players:
 
 **Can I edit a game after publishing?** No. All game rules are locked at launch to ensure fairness and trust.
 
-**What happens if my game doesn't sell out?** If minimum participation isn't reached, the game is refunded. All player funds are returned, and you earn nothing, and your **CR** is dropping.
+**What happens if my game doesn't sell out?** If minimum participation isn't reached, the game is refunded. All player funds are returned, and you earn nothing, and your **CR is dropping**.&#x20;
 
-**How much can I earn?** Your earnings depend on the creator margin you set (up to 90%) and the number of tickets sold. The platform takes a 5% fee from successful games.
+**How much can I earn?** Your earnings depend on the creator margin you set (up to 90%) and the number of tickets sold. The platform takes a 5% fee from successful games. Your margin is fully transparent to your players, and your efforts to promote the lottery.
 
-**Do I need a large audience?** No. Games are discoverable on the Salatto marketplace. However, creators who actively promote their games in social media typically see better results.
+**Do I need a large audience?** No. Games are discoverable on the Salatto marketplace through search, trending, and category listings. However, creators who actively promote their games in social media and share their games consistently perform better.
+
+**How do I improve my Creator Rating?** Complete more games successfully, avoid refunds (low DG), grow your total volume, and maintain consistent participation. The more reliable you are, the higher you rank in discovery.
+
+**Can I create repeated lotteries?** A feature for automatic lottery repetition (creating a new game when the previous one completes) is planned for a future release.
+
+**Can I add social links to my lottery?** Yes, you can add social media links — Twitter/X, Telegram, Discord, Site and other channels — directly on the lottery page. But keep in mind that you can only add them **once** when creating the lottery.
 
