@@ -26,7 +26,7 @@ Get started with Salatto in minutes. No prior lottery or Web3 experience require
 
 ***
 
-**Step 1 — Visit Salat.to** <a href="https://salat.to/" class="button primary" data-icon="ticket">Visit</a>
+### **Step 1 — Visit Salat.to** <a href="https://salat.to/" class="button primary" data-icon="ticket">Visit</a>
 
 Go to Salatto to explore games or start creating your own.
 
@@ -37,7 +37,7 @@ From here, you can browse live games, view rules and odds, or continue to onboar
 
 ***
 
-**Step 2 — Connect Your Wallet**
+### **Step 2 — Connect Your Wallet**
 
 To play or create games, connect a Solana-supported wallet.
 
@@ -53,7 +53,7 @@ Salatto never has access to your private keys.
 
 ***
 
-**Step 3 — Choose Your Path**
+### **Step 3 — Choose Your Path**
 
 Once connected, you can:
 
