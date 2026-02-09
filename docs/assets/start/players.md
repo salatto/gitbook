@@ -22,103 +22,76 @@ metaLinks:
 
 # For Players (Users)
 
-> * How to participate in lotteries
-> * Ticket types
-> * Rank, Rewards, Bonuses & Incentives
-> * Odds, RTP, fairness
-> * Winnings & Payouts
-> * Fees & Commissions
-> * Fairness & Transparency
-> * User Limits & Responsible Gaming
-> * Security & User Protection
-> * Creators vs Gamers – What’s the Difference
+> Players are users who browse, participate in, and win prizes from lotteries and games on Salatto. No blockchain expertise is required — the platform is designed to be accessible to everyone.
 
-#### Players (Users)
-
-Players are users who:
-
-* browse lotteries and games
-* buy tickets or participate in instant games
-* win prizes
-* withdraw rewards
-
-Players do NOT need to:
-
-* understand blockchain or VRF
-* trust creators blindly
-* rely on hidden mechanics
-
-Everything is visible and explainable.
-
-### Player Guide
+***
 
 #### How to Play
 
-1. Create an account / connect wallet
-2. Browse available games
-3. Open a game page
-4. Review:
-   * ticket price
-   * prize details
-   * total number of tickets
-   * lotto progress&#x20;
-   * creator info
-5. Buy ticket(s)
-6. Wait for draw or instant result
-7. Get winnings (auto)
+1. **Connect your wallet** — click **Log in** and approve the wallet connection
+2. **Browse available games** — explore live lotteries, upcoming games, and instant games
+3. **Open a game page** — review all details before participating:
+   * Ticket price
+   * Prize pool and distribution
+   * Total number of tickets
+   * Lottery progress (tickets sold / remaining)
+   * Creator info and reputation
+4. **Buy ticket(s)** — confirm the transaction in your wallet
+5. **Wait for the draw** — or get an instant result, depending on the game type
+6. **Receive winnings automatically** — prizes are sent directly to your wallet
 
-#### Types of Games & Lotteries
+***
 
-* Classic lotteries
-* Creator-exclusive games (soon)
-* Jackpot - every month (Soon!)
+#### Types of Games
 
-#### Understanding Odds&#x20;
+**Classic Lotteries** — buy tickets, wait for the draw, win based on provably fair randomness. The most common game type on Salatto.
 
-Each game shows:
+**Jackpot Pool** — a shared prize pool that grows across multiple games. Monthly draws with larger prizes. _(Coming soon)_
 
-* total tickets
-* winning tickets
-* expected % chance to win&#x20;
+**Creator-Exclusive Games** — unique game formats designed by individual creators with custom rules and prize structures. _(Coming soon)_
 
-Players always know:
+***
 
-* maximum possible loss
-* maximum possible win
+#### Understanding Odds
 
+Every game on Salatto shows:
 
+* **Total tickets** in the game
+* **Winning tickets** and prize tiers
+* **Your percentage chance** of winning
 
-**Early Exit Fee — 15%**
+Before buying a ticket, you always know:
 
-Продажа билета до завершения лотереи облагается комиссией **15%**.\
-Это компенсирует потерю ликвидности и предсказуемости для создателя лотереи.\
-Покупайте билеты осознанно и проводите **DYOR**.
+* The **maximum you can lose** (your ticket price)
+* The **maximum you can win** (the top prize)
+* The **exact odds** of each outcome
 
+There are no hidden mechanics. What you see is what you get.
 
+***
 
-Комиссия взимается при продаже билета **до окончания лотереи** — из-за нарушения ликвидности и баланса игры.
+#### Early Exit
 
+Changed your mind after buying a ticket? You can sell it back before the draw completes.
 
+**Early exit fee: 15%**
 
-**Early ticket sale — 15% fee**
+This fee compensates for the disruption to the game's liquidity and economics. It protects both the creator and other participants.
 
-Продажа билетов до розыгрыша снижает стабильность лотереи.\
-Комиссия **15%** применяется для защиты экономики игры. DYOR before buying.
+Buy tickets thoughtfully. DYOR before participating.
 
+***
 
+#### Refunds
 
-**Refunds:**&#x20;
+If a lottery fails to meet its requirements (e.g., minimum participants not reached), the game status changes to **Refunded** and funds are returned to all participants automatically. A small Solana network fee may apply.
 
-If a lottery fails to meet its requirements (e.g., minimum participants not met), the status changes to Refunded, and funds are returned to users. Note: A small processing fee may apply by Solana blockchain.
+***
 
-
-
-### Rank Progression (v1 light version)
+#### Rank Progression&#x20;
 
 Salatto uses a **rank progression system** to reflect a user’s activity on the platform.\
-Your rank is based on **how many lotteries you have participated in** and is currently displayed in the **My Tickets** section.
-
-At this stage, ranks are **informational and visual**, helping users track their engagement and progress on the platform.
+Your rank is based on **how many games you have participated in** and is currently displayed in the **My Tickets** section.
 
 ***
 
