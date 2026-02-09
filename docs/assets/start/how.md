@@ -97,10 +97,12 @@ Salatto's fee model is simple and transparent:
 | ------------------------ | -------- | ---------------------------------------------------- |
 | Platform fee             | 5%       | Taken from the prize pool of successful games only   |
 | Early exit fee           | 15%      | Applied when a player sells a ticket before the draw |
-| Gas fees                 | Variable | Standard Solana network fees (typically < $0.01)     |
+| Gas fees                 | Variable | Standard Solana network fees (typically < $0.0)      |
 | Withdrawal fees          | None     | No platform fee on withdrawals                       |
 | Hidden fees              | None     | What you see is what you pay                         |
-| Creating lottery         | Variable | Standard Solana network creation fees ($1-2,5)       |
+| VRF fees                 |          | Standard Solana network fees (typically < $0.01)     |
+| Refund fees              |          | Standard Solana network fees (typically < $0.0)      |
+| Creating lottery         | Variable | Standard Solana network PDAs fees ($1-2,5)           |
 | Upgrade button "Medium"  | 2$       | Custom button color + custom text                    |
 | Upgrade button "Premium" | 10$      | Gradient colors, custom text, and emojis             |
 
@@ -110,85 +112,23 @@ Upgrades — are **optional** and charged once at creation.
 
 ***
 
+The **early exit fee** exists to protect game liquidity and fairness for remaining participants. If you sell your ticket before the lottery completes, 15% is deducted to compensate for the disruption to the game's economics.
 
-
-
-
-
-
-
+{% hint style="info" %}
+**DYOR** — always review game rules, ticket price, prize structure, and odds before participating.
+{% endhint %}
 
 
 
 
 
 * How tickets work
-* VRF & fairness explanation&#x20;
-* Flexible RTP&#x20;
 * Number of tickets per lottery
-* Game lifecycle
-* What happens if lottery fails / not filled
 * Disputes & edge cases
 * How randomness works (VRF, on-chain, provable randomness)
 * Can users verify results?
-* Is Salatto able to influence outcomes? (нет)
-* How rewards are distributed (Auto claim)
-* Supported tokens / currencies
-
-#### Randomness
-
-Salatto uses provably fair randomness (VRF-based).
-
-This ensures:
-
-* no manipulation
-* verifiable outcomes
-* equal chance for every ticket
-
-#### Flexible RTP
-
-Some games may have variable RTP ranges.
-
-Important:
-
-* RTP ranges are disclosed upfront
-* no retroactive changes
-* all logic is deterministic
-
-### Platform Economics
-
-#### Fees
-
-* Platform fee is taken only from successful games - 5%
-* No hidden fees
-* Paid buttons&#x20;
-* Promoting live lotteries
-
-#### Failed Games
-
-If a game does not reach minimum participation:
-
-* funds are returned automatically
-* creator earns nothing
-
-
-
-### Fees
-
-**Отдельная страница, без скрытых условий**
-
-* Platform fees
-* Creator fees
-* Early exit / ticket resale fees
-* Gas fees (if applicable)
-* Withdrawal fees
-
-👉 Таблицей.
 
 
 
 
 
-{% hint style="info" %}
-**DYOR** — always review game rules, ticket price, prize structure, and odds before participating.
-{% endhint %}
