@@ -27,9 +27,13 @@ metaLinks:
 
 **Salatto** is a next-generation **UGC lottery and creator gaming platform** that transforms lotteries from closed, operator-controlled systems into an open, transparent, and creator-powered ecosystem.
 
+***
+
 Salatto enables **any creator** to design, launch, and scale their own lotteries, while players participate in games they fully understand, trust, and choose deliberately. Salatto combines creator economics, marketplace dynamics, and provably fair mechanics into a single, scalable platform.
 
 > The Mission: To reshape on-chain lotteries by building open, transparent, equitable, and decentralized lottery games.
+
+***
 
 \
 **From Centralized Lotteries to Open Gaming Markets**
@@ -38,55 +42,58 @@ Traditional lottery systems are built around rigid operators, fixed rules, delay
 
 Salatto introduces a new model:
 
-* creators act as independent game publishers
-* players choose games based on clear rules and visible odds
-* the platform operates as neutral infrastructure, not a game controller
+* **Creators** act as independent game publishers
+* **Players** choose games based on clear rules and visible odds
+* **The platform** operates as neutral infrastructure, not a game controller
 
-This shifts lotteries from a **closed product** into an **open marketplace**.
+> This shifts lotteries from a **closed product** into an **open marketplace**.
+
+***
 
 \
 **Designed for Viral Distribution**
 
 Salatto is built with viral mechanics at its foundation:
 
-* creators promote their own games
-* each lottery is a standalone shareable product
-* success scales through community, not platform spending
+* Creators promote their own games
+* Each lottery is a standalone shareable product
+* Success scales through community, not platform spending
 
+{% hint style="info" %}
 Every game becomes a **distribution channel**.
+{% endhint %}
+
+***
 
 \
 **Marketplace Economics**
 
-Salatto operates as a gaming marketplace:
+Salatto operates as a gaming marketplace where incentives are aligned:
 
-* creators compete on creativity, transparency, and trust
-* players join with participation
-* the platform earns small fees only from successful games
-
-Incentives are aligned:
-
-* creators earn by building fair and attractive games
-* players win through clear and verifiable mechanics
-* the platform grows through volume and trust, not manipulation
+* **Creators** earn by building fair and attractive games
+* **Players** win through clear and verifiable mechanics
+* **The platform** grows through volume and trust, not manipulation
 
 {% hint style="info" %}
 Anyone can be a winner, regardless of who enters.
 {% endhint %}
 
-\
+***
+
 **Beyond Gambling**
 
 Salatto is **not** designed to replicate casinos or legacy lotteries.
 
 Its mission is to:
 
-* make lottery mechanics understandable
-* remove artificial restrictions and delays
-* empower creators instead of operators
-* build long-term trust through transparency
+* Make lottery mechanics understandable and verifiable
+* Remove artificial restrictions, payout delays, and forced jackpot splitting
+* Empower creators instead of operators
+* Build long-term trust through on-chain transparency
 
-Salatto represents a shift from **operator-controlled gambling** to **creator-owned game economies**.
+> Salatto represents a shift from **operator-controlled gambling** to **creator-owned game economies**.
+
+***
 
 ### Jump right in
 
