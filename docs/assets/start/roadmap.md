@@ -87,7 +87,7 @@ Player Engagement:
 * **Clan competitions** — guild vs guild metrics (volume, wins, games created) for exclusive prizes
 * **Creator Wars** — weekly creator rankings with prizes
 * **VRF-powered mini-games** (Flip, Pump, Rocket, Snake, and more)
-* **Flip Tournaments**
+* **Flip Tournaments** (16 to 1024 players)
 * **API & embeddable widgets** for third-party sites and streamers
 
 ***
