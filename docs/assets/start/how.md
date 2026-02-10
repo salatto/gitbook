@@ -118,17 +118,4 @@ The **early exit fee** exists to protect game liquidity and fairness for remaini
 **DYOR** — always review game rules, ticket price, prize structure, and odds before participating.
 {% endhint %}
 
-
-
-
-
-* How tickets work
-* Number of tickets per lottery
-* Disputes & edge cases
-* How randomness works (VRF, on-chain, provable randomness)
-* Can users verify results?
-
-
-
-
-
+***
