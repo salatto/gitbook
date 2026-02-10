@@ -69,3 +69,5 @@ Join the Salatto community to stay updated, share feedback, and connect with oth
 * **Twitter/X:** @
 * **Discord:** Coming soon
 * **Telegram:** @salatto
+
+***
