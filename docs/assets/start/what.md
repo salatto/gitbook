@@ -98,3 +98,5 @@ If you **win** — you **win clearly**, **fairly**, and on fair terms.
 **Create** — launch your own lottery or game as a creator. Define the rules, attract players, and earn from successful games.
 
 → Ready to start? Head to the Quickstart guide.
+
+***
