@@ -148,7 +148,7 @@ Before joining any lottery, check the creator's reputation:
 
 **Creator Rating (CR)** — overall trust score based on completed games, total volume, and consistency. Higher is better.
 
-**Dead Game Rate (DG)** — percentage of the creator's games that ended in refund rather than completion. Lower is better.
+**Death Game Rate (DG)** — percentage of the creator's games that ended in refund rather than completion. Lower is better.
 
 A creator with many completed games, high total volume, and DG below 10–15% is generally trustworthy. A creator with 95%+ DG means almost all their games fail — avoid them.
 
