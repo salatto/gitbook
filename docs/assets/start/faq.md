@@ -21,15 +21,17 @@ layout:
 
 #### General
 
-**What is Salatto?** Salatto is a decentralized lottery and gaming platform on Solana. Anyone can create or participate in provably fair lotteries and games with transparent rules and instant payouts.
+**What is Salatto?** Salatto is a decentralized lottery and gaming platform on Solana. Anyone can create or participate in provably fair lotteries and games with transparent rules and instant payouts. Salatto is a community-run lotto marketplace — a new category called LottoFi.
 
-**Is Salatto a gambling platform?** Salatto provides entertainment-based games and lotteries built on blockchain technology. Availability and participation may depend on local regulations in your jurisdiction.
+**Is Salatto a gambling platform?** Salatto provides entertainment-based games and lotteries built on blockchain technology. Availability and participation may depend on local regulations in your jurisdiction.&#x20;
 
 **Do I need crypto knowledge to use Salatto?** No. Salatto is designed to be accessible to both crypto-native and non-crypto users. You need only a Solana wallet to participate, but no advanced blockchain knowledge is required.
 
-**Who can use Salatto?** Salatto is available to users who meet the minimum age requirement (18+) and are legally allowed to participate according to their local laws.
+**Who can use Salatto?** Salatto is available to users who meet the minimum age requirement (18+) and are legally allowed to participate according to their local laws. Some jurisdictions may be restricted — a notice is displayed in 'Terms of use' if restrictions apply to your region.
 
-**Can I play anonymously?** Yes. Salatto uses wallet-based authentication. No personal information is required to participate. Your identity is your wallet address.
+**Can I play anonymously?** Yes. Salatto uses wallet-based authentication. No personal information, email, or KYC is required to participate. Your identity is your wallet address.
+
+**Is Salatto available in my country?** Salatto may display a restriction notice if your region has specific legal limitations on lottery or gaming participation. Users are responsible for ensuring compliance with their local laws.
 
 {% hint style="info" %}
 Jurisdiction Notice By accessing or using Salatto, you confirm that you are not a resident of, located in, or accessing the platform from any restricted jurisdiction where participation in lotteries or similar activities may be prohibited by law. Restricted jurisdictions include, but are not limited to: United States, United Kingdom, Germany, France, Netherlands, Cyprus, Australia, and any other jurisdiction where such activities are restricted or illegal. It is the user’s sole responsibility to ensure that accessing and using Salatto is lawful in their country of residence.
@@ -37,17 +39,28 @@ Jurisdiction Notice By accessing or using Salatto, you confirm that you are not 
 
 ***
 
-#### Games & Tickets
+#### Tickets & Participation
 
-**How do tickets work?** Each game has a fixed number of tickets at a set price. Buying a ticket enters you into the draw. When the game completes, winners are selected using on-chain VRF randomness.
+**How do tickets work?** Each game has a fixed number of tickets at a set price. Buying a ticket enters you into the draw. When the game completes (either all tickets are sold or the timer/conditions are met), winners are selected using on-chain VRF randomness.
 
-**What types of games are available?** Currently, Salatto supports only classic lotteries. Jackpot pools, and instant games are planned for future releases.
+**Can I buy more than one ticket?** Yes. You can purchase multiple tickets in a single lottery to increase your chances. However, the platform limits total purchases so that you cannot buy tickets whose total cost exceeds the prize pool value — because spending more than you can possibly win makes no economic sense. This protection exists for your benefit.
+
+**Is there a maximum number of tickets I can buy?** The limit is based on the prize pool, not a fixed number. You cannot purchase tickets whose total cost exceeds the potential prize pool. For example, if the prize pool is 100 SOL, you cannot buy tickets worth more than 100 SOL total.
+
+**What types of games are available?** Currently, Salatto supports classic lotteries, flexible lotteries. Jackpot monthly pools, and instant games are planned for future releases.
 
 **What happens if a lottery doesn't sell out?** If a game fails to meet its minimum participation requirements, it is automatically **refunded**. All funds are returned to participants. The creator earns nothing.
 
-**Can I get a refund after buying a ticket?** You can sell your ticket back before the draw, but a 15% early exit fee applies. If the game is refunded due to insufficient participation, you receive a full refund (minus Solana network fees).
+**Can I get a refund after buying a ticket?** You can sell your ticket back before the draw, but a **15% early exit fee** applies. This fee compensates for the disruption to the game's liquidity and economics. If the game is refunded due to insufficient participation, you receive a full refund (minus minimal Solana network fees).
 
 **What is the game lifecycle?** Creator publishes → tickets go on sale → game fills or timer expires → VRF selects winner → prizes distributed automatically.
+
+**What happens if a lottery doesn't sell out?** This depends on the game configuration:
+
+* **Standard lottery:** If minimum participation is not reached by the deadline, the game is refunded and all funds are returned.
+* **Flexible lottery:** If the creator enabled the flexible option, the lottery can complete even without 100% ticket sales. The creator's commission is reduced proportionally, while the prize pool and platform fee remain intact.
+
+**What is a flexible lottery?** A flexible lottery is a game where the creator agreed (before launch) that the lottery can end before all tickets are sold. The creator sacrifices part of their commission to ensure the game completes. This is set during game creation and cannot be changed after launch. Flexible lotteries reduce the chance of refunds and improve player experience.
 
 ***
 
