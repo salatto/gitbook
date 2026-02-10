@@ -139,12 +139,12 @@ This separation ensures that every game is fair regardless of who created it.
 
 #### Game Statuses
 
-| Status         | What it means                                                               |
-| -------------- | --------------------------------------------------------------------------- |
-| **Active**     | Your game is live and selling tickets. Users can still buy or sell tickets. |
-| **Completed**  | Draw is done. Prizes have been distributed to winner wallets.               |
-| **Cencelled**  | The game did not meet minimum requirements. All ticket funds are refunded.  |
-| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.           |
+| Status         | What it means                                                                                                        |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Active**     | Your game is live and selling tickets. Users can still buy or sell tickets.                                          |
+| **Completed**  | Draw is done. Prizes have been distributed to winner wallets.                                                        |
+| **Cencelled**  | The game did not meet minimum requirements. All ticket funds are refunded. You don't earn anything. CR is downgrade. |
+| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.                                                    |
 
 ***
 
