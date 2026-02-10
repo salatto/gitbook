@@ -64,7 +64,7 @@ If you feel that your gaming habits are becoming problematic, please seek suppor
 
 #### Terms of Service
 
-By using Salatto, you agree to the platform's Terms of Service. Key points include:
+By using Salatto, you agree to the platform's _Terms of Service_. Key points include:
 
 * You are solely responsible for ensuring legal compliance in your jurisdiction
 * Salatto provides the platform; creators are independent publishers
@@ -90,3 +90,5 @@ Full Privacy Policy: _Here!_
 #### Disclaimer
 
 Salatto is a technology platform that provides tools for creating and participating in on-chain lotteries and games. Salatto does not guarantee profits, does not provide financial or legal advice, and is not responsible for individual game outcomes. All games are executed by immutable smart contract logic and on-chain randomness.
+
+***
