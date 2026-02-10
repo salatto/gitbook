@@ -97,7 +97,7 @@ Salatto's fee model is simple and transparent:
 | ------------------------ | -------- | ---------------------------------------------------- |
 | Platform fee             | 5%       | Taken from the prize pool of successful games only   |
 | Early exit fee           | 15%      | Applied when a player sells a ticket before the draw |
-| Gas fees                 | Variable | Standard Solana network fees (typically < $0.0)      |
+| Gas fees                 | Variable | Standard Solana network fees (typically < $0.0001)   |
 | Withdrawal fees          | None     | No platform fee on withdrawals                       |
 | Hidden fees              | None     | What you see is what you pay                         |
 | VRF fees                 |          | Standard Solana network fees (typically < $0.01)     |
