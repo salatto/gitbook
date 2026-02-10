@@ -71,7 +71,7 @@ If anyone asks for these — it is a scam.
 Not all creators are equal. Salatto provides tools to help players assess creator reliability:
 
 * **Creator Rating (CR) Soon!** — an overall trust score based on a creator's history, completion rates, and player feedback
-* **Dead Games Rate (DG) Soon!**  — the percentage of a creator's games that ended in refund rather than a successful draw
+* **Death Games Rate (DG) Soon!**  — the percentage of a creator's games that ended in refund rather than a successful draw
 
 A high CR and low DG indicate a reliable creator. Players are encouraged to check these metrics before participating.
 
