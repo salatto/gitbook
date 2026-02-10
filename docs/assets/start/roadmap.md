@@ -56,7 +56,7 @@ New Game Types:
 Creator Tools:
 
 * Promote system (scrolling text, ad blocks, sticker frames)
-* Creator Rating (CR) and Dead Game Rate (DG) metrics — public reputation scores
+* Creator Rating (CR) and Death Game Rate (DG) metrics — public reputation scores
 * Creator verification system (Verified ✅)
 * Creator Leaderboards
 
