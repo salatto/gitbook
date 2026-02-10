@@ -87,6 +87,7 @@ The math is public. The results are deterministic. Anyone can verify.
 * **Immutable game logic** — once a game is published, its rules cannot be changed
 * **No manual overrides** — Salatto cannot alter outcomes, block payouts, or modify game parameters after launch
 * **Transparent rules** — every game's mechanics, odds, and prize structure are visible before participation
+* **Real-time visibility** — prize pools, ticket sales, and participant counts update live via WebSocket connections
 
 ***
 
@@ -97,14 +98,17 @@ Salatto does not hold user funds outside of active game participation.
 * Your wallet remains under your control at all times
 * Funds are locked in game contracts only during active participation
 * Winnings are distributed directly to your wallet
+* Refunds are processed automatically if a game fails
 
 **Salatto will never ask for:**
 
 * Your private keys or seed phrase
-* Direct token transfers outside the platform
+* Direct token transfers outside the platform interface
 * Access to your wallet beyond standard transaction approvals
 
+{% hint style="info" %}
 If anyone asks for these — it is a scam.
+{% endhint %}
 
 ***
 
@@ -112,10 +116,28 @@ If anyone asks for these — it is a scam.
 
 Not all creators are equal. Salatto provides tools to help players assess creator reliability:
 
-* **Creator Rating (CR) Soon!** — an overall trust score based on a creator's history, completion rates, and player feedback
-* **Death Games Rate (DG) Soon!**  — the percentage of a creator's games that ended in refund rather than a successful draw
+*   **Creator Rating (CR) Soon!**&#x20;
 
-A high CR and low DG indicate a reliable creator. Players are encouraged to check these metrics before participating.
+    An overall trust score based on:
+
+    * Number of successfully completed games
+    * Total revenue volume processed
+    * Completion rate (successful games / total games)
+    * Consistency over time
+
+    Higher CR = higher visibility in search and discovery = more players = more revenue. \
+    CR incentivizes creators to build fair, well-structured games.<br>
+*   **Death Games Rate (DG) Soon!** &#x20;
+
+    The percentage of a creator's games that ended in refund. DG is critical because:
+
+    * Games that fail can run for days or weeks before being refunded
+    * Players who exit early from failing games pay a 15% fee
+    * A high DG (e.g., 95%+) means the creator consistently creates games that don't attract enough players
+
+> A high CR and low DG indicate a reliable creator. Players are encouraged to check these metrics before participating.
+
+**How to use these metrics:** Before joining any lottery, check the creator's profile. A creator with many completed games, high total volume, and a DG below 10–15% is generally trustworthy.
 
 ***
 
@@ -123,19 +145,36 @@ A high CR and low DG indicate a reliable creator. Players are encouraged to chec
 
 Salatto operates with full economic transparency:
 
-* **RTP per game type** — disclosed before participation and locked at launch
-* **Expected odds** — clearly shown for every game
+* **RTP per game type** — disclosed before participation, locked at launch
+* **Expected odds** — calculated from total tickets and winning tickets, clearly shown
 * **Platform fee** — 5% from successful games only
 * **Creator margin** — set by the creator and visible
+* **Prize pool split** — exact distribution shown before ticket purchase
 
+{% hint style="info" %}
 There is no hidden house edge. The economics of every game are visible and auditable.
+{% endhint %}
 
 ***
 
-#### Security Practices
+#### Smart Contract Security
 
-* Smart contract audits — planned (details will be published when completed)
-* Bug bounty program — coming soon
+Smart contract security is Salatto's highest priority. The team's position:
+
+> "You can fix a product, but you can't fix a reputation. If we compromise on security once, we lose trust forever."
+
+**Current security measures:**
+
+* Rigorous internal testing of all smart contract functions
+* Testing across all game state transitions (Create, Active, Processing, Completed, Refunded)
+* Transaction history verification on dev chain before production deployment
+
+**Planned security measures:**
+
+* Professional smart contract audit (evaluating firms and tools)
+* Open-source security tool scanning
+* Formal security audit report published publicly (details will be published when completed)
+* Bug bounty program for responsible vulnerability disclosure — coming soon
 * Vulnerability reporting — contact the team via Support
 
 ***
@@ -147,5 +186,9 @@ There is no hidden house edge. The economics of every game are visible and audit
 * Change game rules after publication
 * Access your wallet or private keys
 * Reverse completed transactions
+* Override VRF randomness
+* Selectively favor certain participants
 
-The platform is designed so that even Salatto itself cannot interfere with fair game execution.
+The platform is designed so that even Salatto itself cannot interfere with fair game execution. The code is the only authority.
+
+***
