@@ -75,3 +75,5 @@ Salatto monitors affiliate activity to maintain platform integrity:
 #### Get Started
 
 The affiliate program is currently in development. To express interest or get early access, reach out via Support.
+
+***
