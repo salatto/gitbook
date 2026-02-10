@@ -193,9 +193,10 @@ Higher CR means more trust. Creators with high CR appear higher in search result
 
 **Death Game Rate (DG)**&#x20;
 
+> Count starts with 10th game. (soon)
+
 The percentage of a creator's games that ended in a refund rather than a successful draw. DG matters because:
 
-* Starts with 10th game.
 * Refunded games waste players' time (games can run for weeks before failing and refunded)
 * Players selling tickets early from likely-to-fail games lose 15% to the exit fee
 * A creator with 95–99% DG is essentially creating games that never complete
