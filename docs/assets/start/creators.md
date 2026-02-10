@@ -260,3 +260,4 @@ Salatto enforces strict rules to protect players:
 
 **Can I add social links to my lottery?** Yes, you can add social media links — Twitter/X, Telegram, Discord, Site and other channels — directly on the lottery page. But keep in mind that you can only add them **once** when creating the lottery.
 
+***
