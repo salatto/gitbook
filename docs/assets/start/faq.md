@@ -83,23 +83,104 @@ Neither Salatto, creators, nor any third party can predict or influence results.
 
 **What is Death Game Rate (DG)? (soon)** Death Game Rate shows the percentage of a creator's games that ended in a refund rather than a successful draw. A high DG (e.g., 95–99% of games refunded) is a strong warning signal. Players should check both CR and DG before participating — a creator with many completed games, high total volume, and low DG is the most trustworthy.
 
+{% hint style="info" %}
+Death Game rate starts with 10th game.
+{% endhint %}
+
 **Can Salatto block my funds or withdrawals?** No. Salatto is non-custodial. Funds in active games are held in on-chain contracts, and payouts are automated. Salatto cannot freeze, block, or redirect your winnings.
 
 **What happens if Salatto shuts down?** Funds in active game contracts remain on-chain. Completed games have already distributed payouts. Active games would follow their programmed logic (completion or refund).
 
 ***
 
-#### Economics
+#### Economics & Fees
 
-**Why did I lose?** Lotteries are probability-based. Each ticket has a known chance of winning, disclosed before purchase. Not every ticket wins — that's the nature of a lottery.
+**Why did I lose?** Lotteries are probability-based. Each ticket has a known chance of winning, clearly disclosed before purchase. Not every ticket wins — that's the nature of a lottery. Unlike casinos where you play against the house, in Salatto you play against other participants in a transparent pool.
 
 **Can I lose more than I spend?** No. Your maximum loss is the price of the ticket(s) you purchased. There is no leverage, margin, or additional risk.
 
 **Can RTP change after I buy a ticket?** No. RTP and all game economics are locked at the time of game publication. No retroactive changes are possible.
 
-**What is the platform fee?** Salatto takes a 5% fee from the prize pool of successfully completed games. There are no fees on failed/refunded games, and no withdrawal fees.
+**What is the platform fee?** Salatto takes a 5% fee from the prize pool of successfully completed games. There are **no fees** on failed/refunded games, and no withdrawal fees.
+
+| Fee Type        | Amount       | Details                                   |
+| --------------- | ------------ | ----------------------------------------- |
+| Platform fee    | 5%           | From prize pool of successful games only  |
+| Early exit fee  | 15%          | When selling a ticket before the draw     |
+| Gas fees        | Variable     | Standard Solana fees, typically < $0.0001 |
+| Withdrawal fees | None         | No platform fee on withdrawals            |
+| Game creation   | Free or paid | Depends on game card customization tier   |
+| Hidden fees     | None         | What you see is what you pay              |
+
+**Are there paid features for game creation?** Yes. Creators can optionally customize their game card appearance:
+
+* **Default** — Free (standard game button)
+* **Tier 1** — Custom color + name styling (\~$2 in SOL)
+* **Tier 2** — Gradient + name + emoji styling (\~$10 in SOL)
+
+These are optional cosmetic upgrades that help games stand out in the marketplace.
+
+**What is the Promote system?** Creators can boost the visibility of their lotteries through the Promote (Upgrade) system. Options include **scrolling text banners, ad blocks, and sticker frames.** Promotion is purchased in SOL and gives the lottery higher visibility on the platform.
+
+**How does the prize pool work?** The prize pool is funded by ticket purchases. Revenue from each game is split between:
+
+* **Prize pool** — the amount distributed to winners (set during game creation — by creator)
+* **Creator margin** — the creator's earnings (set during game creation)
+* **Platform fee** — 5% to Salatto infrastructure
+
+The creator must set a prize pool of at least 5% of the total game revenue. All splits are visible before participation.
+
+
 
 ***
+
+#### Games & Features
+
+**What types of games are available now?** Currently, Salatto supports **classic lotteries** — buy tickets, wait for the draw, win based on VRF randomness.
+
+**What types of games are coming soon?**
+
+* **Jackpot Pool** — monthly shared prize pool across participating lotteries
+* **No-Loss Lotteries** — participate with guaranteed partial cashback (25%, 50%, or 75%)
+* **Scratch Cards (Heart Stoppers)** — instant-win VRF-based scratch mechanics
+* **Sweepstakes** — giveaway-style draws verified by VRF
+* **Mini-Games** — fast VRF-powered games (Flip, Pump/Rocket, Plinko, Snake, CoinFlip, etc.)
+* **Flip Tournaments** — bracket-style elimination coin flip tournaments (16 to 1024 players)
+* **Non-monetary prize lotteries** — physical goods, NFTs, courses, experiences
+
+**What is the Jackpot Pool? (soon)** Creators can opt their lotteries into the monthly Jackpot program (+5% commission). All tickets from participating lotteries automatically enter the monthly Jackpot draw. The more games you play that month, the higher your chances. Jackpot lotteries are marked with a badge and get priority placement on the homepage.&#x20;
+
+{% hint style="info" %}
+All games that ended within one calendar month participate in the jackpot pool (if they chose to participate).
+{% endhint %}
+
+**What are No-Loss Lotteries?** No-Loss lotteries return a percentage of the ticket price to all losing participants:
+
+* **Medium risk** — 25% cashback on losing tickets
+* **Low risk** — 50% cashback
+* **Very low risk** — 75% cashback
+
+Higher cashback means a smaller prize pool, but lower risk for players.
+
+**Can lotteries offer non-monetary prizes?** Yes (coming soon). Creators will be able to offer physical goods, NFTs, online courses, mentorship sessions, exclusive content, collectibles, or meet-and-greet experiences. The VRF mechanism works the same regardless of prize type.
+
+**Can I comment on a lottery?** Yes. Each lottery page has a comments section where players can discuss the game or ask questions.
+
+**How does sharing work?** Every lottery has a Share button that generates a shareable link with a preview image. For creators, the platform encourages sharing with the message "Share your lottery to earn more." Each lottery is a standalone shareable product designed for viral distribution.
+
+**What is the Trending section?** The homepage features a Trending section highlighting popular lotteries based on participation rate, speed of ticket sales, and community engagement.
+
+***
+
+#### Account & Rank
+
+**How does the rank system work?** Salatto uses a rank progression system based on the number of **lotteries** you've participated in (not individual tickets). Ranks are displayed in the My Tickets section.
+
+
+
+
+
+
 
 #### Technical
 
