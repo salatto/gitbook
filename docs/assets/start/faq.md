@@ -176,19 +176,34 @@ Higher cashback means a smaller prize pool, but lower risk for players.
 
 **How does the rank system work?** Salatto uses a rank progression system based on the number of **lotteries** you've participated in (not individual tickets). Ranks are displayed in the My Tickets section.
 
+| Rank                                                        | Games Played |
+| ----------------------------------------------------------- | ------------ |
+| **Beginner**                                                | **0–10**     |
+| <mark style="color:$warning;">**Bronze • Top 50%**</mark>   | **11–50**    |
+| <mark style="color:$info;">**Silver • Top 40%**</mark>      | **51–150**   |
+| <mark style="color:yellow;">**Gold • Top 25%**</mark>       | **151–300**  |
+| <mark style="color:$success;">**Platinum • Top 15%**</mark> | **301–500**  |
+| <mark style="color:blue;">**Diamond • Top 5%**</mark>       | **501–1000** |
+| <mark style="color:purple;">**Legend • Top 1%**</mark>      | **1001+**    |
 
+**Do ranks give advantages?** Currently (v1), ranks are informational and visual. Future plans include XP-based leveling, rank-based perks, access to exclusive lotteries, reduced fees, achievements, staking bonuses, and the ability to display achievements on your profile.
 
+**Can I get verified as a creator?** Yes. Verified creators receive a trust badge. Verification is handled via [verified@salat.to](mailto:verified@salat.to) — creators submit their social media profiles and are evaluated against set criteria. An automated application form is also planned.
 
-
-
+***
 
 #### Technical
 
-**What blockchain does Salatto use?** Salatto runs on Solana — chosen for its low transaction costs, fast confirmation times, and native VRF support.
+**What blockchain does Salatto use?** Solana — chosen for low transaction costs (< $0.0001), fast confirmations (\~400ms), and native VRF support.
 
 **Which wallets are supported?** Phantom, Solflare, Backpack, and other Solana-compatible wallets.
 
-**What tokens can I use?** SOL and select SPL tokens, depending on the game. Supported tokens are shown on each game page.
+**What tokens can I use?** SOL and select SPL tokens, depending on the game. Supported tokens are shown on each game page. Prices are displayed in both SOL and USD.
 
+**Does Salatto have real-time updates?** Yes. The platform uses WebSocket connections for real-time updates on ticket sales, prize pool changes, game status transitions, and draw results.
 
+**Is the smart contract audited?** Smart contract auditing is Salatto's highest security priority. The team is evaluating multiple open-source audit tools and professional audit firms. A full report will be published upon completion.
 
+**Where can I report bugs or security issues?** Contact [support@salat.to](mailto:support@salat.to). For security vulnerabilities, use the subject line "Security Vulnerability." A formal bug bounty program is coming soon.
+
+***
