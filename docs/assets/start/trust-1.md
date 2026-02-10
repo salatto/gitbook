@@ -25,17 +25,59 @@ Trust is the foundation of any lottery platform. Salatto is built so that trust 
 
 #### Provably Fair Draws
 
-Every draw on Salatto is on-chain and verifiable.
+{% hint style="info" %}
+Every draw on Salatto is on-chain and verifiable. This ensures that no one — including platform developers, lottery creators, or any third party — can predict or manipulate the result of a draw.
+{% endhint %}
 
-**VRF Technology:** Salatto uses a Verifiable Random Function to generate randomness for all game outcomes. This ensures that no one — including platform developers, lottery creators, or any third party — can predict or manipulate the result of a draw.
+**VRF Technology:** Salatto uses a **Verifiable Random Function (VRF)** to generate randomness for all game outcomes. VRF is a cryptographic primitive that produces a random output along with a mathematical proof that the output was generated correctly.
 
-**How to verify:**
+**The Two-Phase Process:**
 
-1. Open any completed game
-2. Click on the draw transaction link
-3. Inspect the VRF output and winner selection on-chain
+**Phase 1 — Commit** When a lottery is ready for a draw (all tickets sold or deadline reached):
 
+1. The smart contract accepts the final game state
+2. The contract calls the VRF oracle and requests a random number
+3. A `requestId` is stored on-chain, locking the request
+
+At this point, no one knows what the random number will be — not the platform, not the creator, not the oracle itself.
+
+**Phase 2 — Reveal** The VRF oracle generates the random number and returns it to the contract:
+
+1. The oracle returns a `randomWord` — a cryptographically random value
+2. The contract converts this value into a usable range (e.g., `randomWord % totalTickets`)
+3. The resulting number maps directly to a winning ticket
+4. The winner is selected deterministically — the same random number always produces the same winner
+5. Prizes are distributed automatically to the winner's wallet
+
+**Why this is trustworthy:**
+
+* The random number is generated **after** all tickets are purchased — no one can game the system
+* The VRF proof is stored on-chain and can be independently verified by anyone
+* The mapping from random number to winner is deterministic and transparent
+* Even if you could see the VRF oracle's internal state, you couldn't predict the output for a specific request
+
+***
+
+#### How to Verify a Draw Result
+
+You don't have to trust Salatto — you can verify every draw yourself.
+
+**Step-by-step verification:**
+
+1. **Open the completed game** on Salatto
+2. **Click the transaction link** — this opens the Solana blockchain explorer (e.g., Solscan or Solana Explorer)
+3. **Find the VRF request transaction** — this shows when the randomness was requested and the `requestId`
+4. **Find the VRF fulfillment transaction** — this shows the random number returned by the oracle
+5. **Check the winner selection** — the random number modulo the total number of tickets gives you the winning ticket index
+6. **Verify the payout** — confirm that the prize was sent to the correct wallet address
+
+The entire chain of events — from request to random number to winner to payout — is visible on the public blockchain.
+
+A dedicated **Provably Fair** verification page is planned for the platform footer, making this process even more accessible for non-technical users.
+
+{% hint style="info" %}
 The math is public. The results are deterministic. Anyone can verify.
+{% endhint %}
 
 ***
 
