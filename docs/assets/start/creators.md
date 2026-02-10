@@ -139,12 +139,12 @@ This separation ensures that every game is fair regardless of who created it.
 
 #### Game Statuses
 
-| Status         | What it means                                                              |
-| -------------- | -------------------------------------------------------------------------- |
-| **Active**     | The game is live and selling tickets. You can still buy or sell tickets.   |
-| **Completed**  | Draw is done. Prizes have been distributed to winner wallets.              |
-| **Cencelled**  | The game did not meet minimum requirements. All ticket funds are refunded. |
-| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.          |
+| Status         | What it means                                                               |
+| -------------- | --------------------------------------------------------------------------- |
+| **Active**     | Your game is live and selling tickets. Users can still buy or sell tickets. |
+| **Completed**  | Draw is done. Prizes have been distributed to winner wallets.               |
+| **Cencelled**  | The game did not meet minimum requirements. All ticket funds are refunded.  |
+| **Processing** | Ticket sales have ended. The VRF draw is being executed on-chain.           |
 
 ***
 
@@ -191,7 +191,7 @@ An overall trust score based on:
 
 Higher CR means more trust. Creators with high CR appear higher in search results and discovery rankings, which directly translates to more players and more revenue.
 
-**Dead Game Rate (DG)**&#x20;
+**Death Game Rate (DG)**&#x20;
 
 The percentage of a creator's games that ended in a refund rather than a successful draw. DG matters because:
 
