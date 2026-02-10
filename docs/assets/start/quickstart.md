@@ -78,3 +78,4 @@ Salatto represents a shift from **operator-controlled lotteries** to **creator-o
 Whether you play or create — the rules are always transparent, the outcomes always fair.
 {% endhint %}
 
+***
