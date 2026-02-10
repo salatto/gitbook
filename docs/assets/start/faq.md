@@ -66,9 +66,22 @@ Jurisdiction Notice By accessing or using Salatto, you confirm that you are not 
 
 #### Fairness & Trust
 
-**Is this rigged? Can anyone manipulate the outcome?** No. All outcomes are determined by on-chain Verifiable Random Function (VRF) technology. Neither Salatto, creators, nor any third party can predict or influence results. Every draw is publicly verifiable.
+**Is this rigged? Can anyone manipulate the outcome?** No. All outcomes are determined by on-chain Verifiable Random Function (VRF) technology. The process works in two phases:
 
-**Can creators scam users?** No. Creators define game parameters before launch, but all rules are locked and immutable once the game goes live. Creators cannot change odds, manipulate randomness, or interfere with payouts.
+1. **Commit phase** — when the game is ready for a draw, the contract requests a random number from the VRF oracle and stores the request ID
+2. **Reveal phase** — the VRF oracle returns a verifiable random number, which the contract uses to deterministically select the winner
+
+{% hint style="info" %}
+Neither Salatto, creators, nor any third party can predict or influence results. Every draw is publicly verifiable on the Solana blockchain.
+{% endhint %}
+
+**How does VRF work in simple terms?** VRF (Verifiable Random Function) is a cryptographic method that produces a random number along with a mathematical proof that the number was generated fairly. Think of it like a sealed envelope with a random number inside — anyone can verify the envelope was sealed correctly, but no one could have known the number in advance. On Salatto, VRF generates the randomness for every draw, and the proof is stored on-chain for anyone to inspect.
+
+**Can creators scam users?** No. Creators define game parameters before launch, but all rules are locked and immutable once the game goes live. Creators cannot change odds, manipulate randomness, or interfere with payouts. Every creator has public reputation metrics — Creator Rating (CR) and Death Game Rate (DG) — that help players assess reliability before participating.
+
+**What is Creator Rating (CR)? (soon)** Creator Rating is an overall trust score based on game history — how many games successfully completed, total volume processed, and completion rate. Higher CR means a more reliable creator. Creators with high CR appear higher in the platform's search and discovery rankings.
+
+**What is Death Game Rate (DG)? (soon)** Death Game Rate shows the percentage of a creator's games that ended in a refund rather than a successful draw. A high DG (e.g., 95–99% of games refunded) is a strong warning signal. Players should check both CR and DG before participating — a creator with many completed games, high total volume, and low DG is the most trustworthy.
 
 **Can Salatto block my funds or withdrawals?** No. Salatto is non-custodial. Funds in active games are held in on-chain contracts, and payouts are automated. Salatto cannot freeze, block, or redirect your winnings.
 
