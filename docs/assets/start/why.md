@@ -1,20 +1,6 @@
 ---
 description: Salatto
 icon: image-landscape
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/basics/images-and-media
@@ -58,8 +44,6 @@ Here is what traditional lotteries look like today:
 | Innovation             | Stagnant                      | Fast but operator-controlled | Open marketplace — anyone innovates  |
 | RTP (Return to Player) | 35–60%                        | 92–96%                       | Disclosed per game, creator-defined  |
 | Who can create         | Licensed operators only       | Licensed operators only      | Anyone                               |
-
-
 
 ***
 

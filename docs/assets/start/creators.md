@@ -1,20 +1,6 @@
 ---
 description: Creator Guide
 icon: user-group-crown
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/basics/integrations
@@ -168,7 +154,7 @@ The creator is solely responsible for promoting their lottery and undertakes to 
 * create lotteries or games
 * define prize structures
 * attract audiences
-* earn from successful games up to 90% of successful game.
+* earn from successful games up to 90% of successful game. (0-90%)
 
 {% hint style="info" %}
 Each creator independently determines their own game, but no less than 5% for the prize pool.
